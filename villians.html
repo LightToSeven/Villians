@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="#" type="image/x-icon">
@@ -11,16 +10,25 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--   <link href="./font/font.css" rel="stylesheet" type="text/css" />-->
+       <link href="./font/font.css" rel="stylesheet" type="text/css" />
     <!--   <link href="./sccs/style.css" rel="stylesheet" type="text/css" />-->
     <link href="./css/media.css" rel="stylesheet" type="text/css"/>
     <title>Villians</title>
 </head>
 
 <body>
+<div class="wrapper">
 <header>
     <div class="container">
         <div class="header__union">
+            <div class="header__btnMenu">
+                <svg width="55" height="49" viewBox="0 0 55 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.39894 2.87147C8.07007 2.8474 7.74987 2.63541 7.6872 2.40007C7.37064 2.71067 7.45427 3.01451 9.42255 4.4079C9.67211 4.7799 10.1848 5.02899 10.7142 5.11068C7.89197 7.0018 6.03412 10.2203 6.03412 13.8727L6.03412 32.0777C6.03412 35.9881 8.16364 39.4011 11.3262 41.2202C10.153 41.9751 9.15005 42.8676 9.03926 43.3555C8.96761 43.6714 8.41536 44.0619 7.81176 44.2237C7.18762 44.3909 6.28996 45.0409 5.73036 45.7301C4.60466 47.1174 3.12956 47.6356 1.48508 47.2221C0.764349 46.9302 0.884508 47.9996 1.48242 48.1574C2.82716 48.5117 5.45614 47.6077 6.2077 46.5331C6.5752 46.0073 7.62676 45.2276 8.54474 44.8007C8.99441 44.5915 9.57932 44.6182 10.1543 44.6446C10.7528 44.672 11.3405 44.6989 11.7539 44.4588C12.9103 43.7868 14.5322 42.9016 15.9652 42.6001C16.1666 42.6116 16.3696 42.6174 16.5738 42.6174H17.7894C18.5691 42.7846 18.4808 42.8186 17.7191 43.1115C17.4643 43.2095 17.1341 43.3365 16.7358 43.5072C13.2412 45.0044 12.8174 45.2459 13.0459 45.6093C13.1777 45.8187 14.1445 45.8033 15.2426 45.574C16.3211 45.3484 17.5735 45.3118 18.0248 45.4926C18.5791 45.7141 19.7304 45.5839 21.5661 45.0921C23.5419 44.5626 24.4612 44.4719 24.9256 44.7611C25.3425 45.0206 26.2144 44.985 27.4309 44.6591C28.4568 44.3842 30.0038 44.1598 30.8688 44.1606C31.7334 44.1616 32.6734 43.9746 32.9576 43.7452C33.8919 42.9908 35.3887 42.6171 37.1089 42.7087C38.9584 42.807 41.203 42.1532 41.2259 41.5096C41.232 41.3387 40.9122 41.1195 40.4575 40.9583C40.7344 40.7809 41.0024 40.5909 41.2608 40.3891C41.4758 40.3414 41.7103 40.2864 41.965 40.2231C43.0996 39.941 43.6967 39.9253 44.1384 39.9137C44.6322 39.9007 44.9316 39.8928 45.57 39.5236C45.57 39.5236 43.5357 38.9452 42.6146 39.1266C44.2955 37.2593 45.3185 34.788 45.3185 32.0777L45.3185 13.8727C45.3185 11.1622 44.2953 8.69065 42.6141 6.82325C43.3872 7.05893 44.2902 7.35732 45.4883 7.75324L45.6718 7.8139C49.1892 8.97601 52.2788 10.275 53.7296 11.2021C54.2598 11.5407 54.5496 11.4321 54.2895 10.9919C54.0714 10.6228 49.4693 8.34409 47.9058 7.83103C47.1744 7.59101 45.9898 7.0322 45.2733 6.58879C44.5567 6.14567 43.5354 5.59762 43.0039 5.37076C42.4721 5.14418 41.886 4.77936 41.7015 4.56018C41.5167 4.34099 41.1082 4.05261 40.7933 3.91979C40.4786 3.7867 40.2334 3.50702 40.2487 3.29834C40.2778 2.90064 39.756 2.66918 37.7427 2.18693C36.6965 1.93628 36.5336 1.96154 36.5031 2.3792C36.4802 2.69178 36.3153 2.8488 36.0314 2.82802C35.7914 2.81046 35.5564 2.93254 35.5093 3.09906C35.4861 3.18148 35.3498 3.26723 35.1483 3.33937C35.0256 3.33515 34.9025 3.33302 34.7788 3.33302L29.9448 3.33302C29.78 3.28412 29.6054 3.2383 29.426 3.19773C28.5564 3.00101 27.3677 2.68563 26.7842 2.49686C26.0339 2.25429 25.3837 2.24241 24.563 2.45619C23.7957 2.65592 22.741 3.00371 21.8536 3.33302L19.3216 3.33302C18.8519 2.66313 18.3951 1.71651 18.4291 1.25133C18.4794 0.564813 18.1453 0.338827 16.9505 0.251391C16.1632 0.193783 15.9335 0.289099 15.7421 0.753122C15.6121 1.0682 15.3936 1.31777 15.2563 1.30773C15.1189 1.29767 14.8235 1.87359 14.5996 2.58753C14.445 3.08074 14.3441 3.39763 14.2311 3.59432C13.9224 3.66438 13.6188 3.748 13.3211 3.84452C13.2685 3.83723 13.2128 3.82914 13.1537 3.82049C12.8059 3.76966 12.2641 3.91532 11.9498 4.14461C11.1218 4.74824 10.3083 4.5931 9.60852 3.69768C9.26069 3.25292 8.739 2.89635 8.39894 2.87147Z" fill="#47358E"/>
+                    <path d="M13.6992 13.874H36.695V16.7485H13.6992V13.874Z" fill="#D9D9D9"/>
+                    <path d="M13.6992 21.5393H36.695V24.4137H13.6992V21.5393Z" fill="#D9D9D9"/>
+                    <path d="M13.6992 29.2045H36.695V32.079H13.6992V29.2045Z" fill="#D9D9D9"/>
+                </svg>
+            </div>
             <ul class="header__navigation">
                 <li class="navigation__item">
                     <a href="#">collection</a>
@@ -84,6 +92,13 @@
                 </a>
             </div>
             <a href="#" class="header__button">Mint now</a>
+            <a href="#" class="header__buttonMob">
+                <svg width="80" height="48" viewBox="0 0 80 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10.0195" y="3.56006" width="56" height="40" rx="8" fill="#F14B64"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.78342 3.12903C10.0764 3.39243 10.6422 3.75083 11.0408 3.9253C12.4021 4.52074 17.0202 5.61142 18.518 5.33899C20.6375 4.95334 21.6588 4.9175 22.518 5.05943C22.6273 5.07747 22.7441 5.10185 22.8628 5.12664C23.326 5.22338 23.8191 5.32638 24.018 5.08282C24.1267 4.94981 24.123 4.89555 24.1415 4.88646C24.1721 4.87147 24.263 4.97937 25.018 5.05943C25.5344 5.11405 25.971 5.0729 26.2977 5.0096C26.3586 5.46483 27.4753 5.64552 28.379 5.33899C29.2316 5.0497 29.9871 5.13093 30.4745 5.56418C30.6227 5.69597 31.0958 5.71193 31.5257 5.59964C31.9557 5.48736 32.7317 5.45245 33.2501 5.52187C33.8648 5.60419 34.2994 5.51774 34.4989 5.27345C34.721 5.00116 35.1808 4.94912 36.1793 5.08282C37.1069 5.20704 37.6833 5.15398 37.9521 4.91982C38.171 4.72884 38.7949 4.59403 39.338 4.62048C39.6639 4.63619 39.901 5.14015 40.0408 5.43717C40.1381 5.64401 40.1882 5.7505 40.1882 5.52187C40.2593 5.31668 40.8695 5.89315 41.2382 6.26715C41.182 6.36542 41.2495 6.46179 41.518 6.55944C41.518 6.55944 41.4019 6.43326 41.2382 6.26715C41.3174 6.12848 41.6429 5.98604 41.9973 5.83096C42.2196 5.73364 42.4534 5.63134 42.6448 5.52187C42.7741 5.4479 42.8558 5.38747 42.9052 5.34007C42.9411 5.40438 43.0302 5.49141 43.2175 5.59964C43.417 5.71488 43.3872 5.6157 43.353 5.50215C43.3157 5.37825 43.2732 5.23724 43.518 5.33899C43.7594 5.43931 43.9058 5.32949 44.0181 5.24525C44.1241 5.16573 44.1997 5.10902 44.2961 5.27345C44.6445 5.86694 45.3544 5.36998 45.9645 4.94288C46.0657 4.872 46.1642 4.80305 46.2579 4.74132C46.5504 4.54828 46.6642 4.57571 46.7296 4.85492C46.795 5.13413 47.0172 5.18743 47.6535 5.07646C47.9283 5.02854 48.1135 4.99791 48.2674 4.91148C48.5942 4.72787 48.7796 4.29248 49.3808 2.90478C49.6799 2.21441 49.7262 2.19871 50.6045 2.48314C51.657 2.82442 51.9094 3.05467 52.6685 4.36918C53.4312 5.68914 53.6312 5.79628 54.3949 5.29198C56.0987 4.16736 60.1119 4.50032 61.018 5.55934C61.1063 5.66244 58.8769 6.2983 55.9368 7.1369C53.857 7.73013 51.4215 8.4248 49.199 9.10412C48.5649 9.24297 47.9531 9.37771 47.373 9.50548C47.3364 9.51354 47.2999 9.52158 47.2635 9.52959C47.0227 9.44947 46.7455 9.36221 46.4277 9.26558C45.4672 8.97348 45.314 8.98788 45.2622 9.37524C45.2233 9.66515 45.0609 9.80218 44.7976 9.76692C44.575 9.73711 44.3493 9.83767 44.2961 9.99016C44.2429 10.1429 43.7576 10.2824 43.2175 10.3002C42.6773 10.3179 42.2236 10.4212 42.2091 10.5292C42.1937 10.6448 44.3023 10.1818 47.2635 9.52959C47.3604 9.56183 47.4515 9.59291 47.5369 9.62299C43.9422 10.7726 41.4254 11.7859 42.9419 12.0561C46.2393 12.6432 47.692 12.8981 49.0971 13.3136C50.2585 13.6571 51.3875 14.1103 53.4989 14.9516C56.7104 16.2313 59.5158 17.6144 60.8153 18.5593C61.2903 18.9045 61.5663 18.8195 61.3487 18.395C61.1662 18.0388 57.0068 15.6583 55.579 15.0927C54.9111 14.8282 53.8389 14.2412 53.1962 13.788C52.5536 13.3351 51.6329 12.7674 51.1504 12.5262C50.6678 12.2854 50.1422 11.9127 49.9826 11.6982C49.8227 11.4836 49.4583 11.1921 49.1724 11.0507C48.8867 10.9091 48.674 10.6349 48.6999 10.4413C48.7374 10.1614 48.474 9.9529 47.5369 9.62299C48.0704 9.45237 48.6277 9.27875 49.199 9.10412C54.3575 7.97456 60.9925 6.57313 64.0634 6.44393C64.7702 6.4142 65.2694 5.81583 64.7263 5.36247C64.0269 4.77862 63.0451 4.29231 62.5614 4.15188C61.7623 3.9199 60.6726 3.55951 60.1396 3.35098C59.4543 3.08297 58.8492 3.03548 58.0727 3.18864C56.694 3.4604 54.3194 4.17155 53.9151 4.43386C53.5359 4.67984 52.3253 2.47583 52.4262 1.72261C52.5115 1.0859 52.2129 0.856666 51.1048 0.708274C50.3746 0.610506 50.1553 0.686427 49.951 1.10797C49.8122 1.39419 49.5947 1.61444 49.4674 1.5974C49.3399 1.58033 49.0325 2.10028 48.784 2.75281C48.3085 4.00119 48.2926 4.01292 47.3679 3.82037C47.0467 3.75354 46.5339 3.85888 46.2282 4.05486C45.4231 4.57079 44.674 4.3807 44.0723 3.50735C43.7732 3.07355 43.3072 2.71216 42.9918 2.66993C42.6867 2.62908 42.4003 2.41367 42.3551 2.19092C42.2487 1.66681 41.0836 0.720244 40.1882 0.430215C39.3303 0.152672 38.5445 0.507156 37.6099 1.59402C37.2212 2.046 36.6018 2.51836 36.2333 2.64358C35.5816 2.865 35.2928 3.27273 35.7077 3.38537C35.9888 3.46181 34.8097 3.80545 34.0665 3.86361C33.7348 3.88957 32.7721 4.00838 31.927 4.1277C30.5397 4.32348 30.3773 4.30091 30.2532 3.89469C30.1392 3.52142 29.6598 3.38075 27.4381 3.06994C24.5817 2.66999 23.2936 2.78402 20.3 3.7024C18.6726 4.20132 18.5944 4.19971 16.8996 3.63029C14.7726 2.91597 14.0992 2.84851 13.6872 3.30846C13.5119 3.50445 13.0478 3.7036 12.6555 3.75138C12.05 3.82491 11.896 3.73335 11.6332 3.14259C11.4167 2.65584 11.1238 2.41406 10.6568 2.33656C10.2898 2.27578 9.67134 1.91226 9.28242 1.52905C8.54181 0.79921 7.50307 0.492748 7.26414 0.933755C7.18714 1.07585 6.69328 1.14909 6.16665 1.09658C5.64002 1.04407 4.97047 1.06442 4.67879 1.14175C4.17271 1.2757 4.16715 1.28798 4.55801 1.4071C4.78325 1.47578 5.29609 1.54723 5.69748 1.56606C6.69766 1.61299 9.13427 2.545 9.78342 3.12903ZM42.9402 5.20752C42.9758 5.20632 42.9998 5.24931 42.9052 5.34007C42.8573 5.2541 42.9045 5.20872 42.9402 5.20752ZM26.4339 4.98063C26.3909 4.99061 26.3455 5.00034 26.2977 5.0096C26.2968 5.00309 26.2962 4.99653 26.2957 4.98992C26.2914 4.92399 26.3108 4.93243 26.3576 4.95272C26.3778 4.96149 26.4031 4.97248 26.4339 4.98063ZM26.919 4.82637C26.8883 4.84211 26.8335 4.87177 26.7529 4.91982C26.6127 5.00338 26.5077 5.00022 26.4339 4.98063C26.6863 4.92206 26.8543 4.85509 26.919 4.82637ZM26.919 4.82637C26.9392 4.81601 26.9489 4.81168 26.9487 4.81211C26.9486 4.81253 26.9385 4.81771 26.919 4.82637ZM0.894504 41.7001C1.46985 41.7275 2.40844 41.4192 3.07062 40.9858C4.40292 40.1133 5.79606 40.0736 7.08017 40.871C7.56769 41.1739 8.45167 41.4213 9.04455 41.4214C10.7518 41.4215 10.7767 41.439 11.2556 43.0107C11.506 43.8323 11.9008 44.5135 12.1333 44.5245C12.3655 44.5356 12.6886 44.8454 12.8515 45.2129C13.0912 45.7543 13.4602 45.8961 14.7921 45.9595C16.8136 46.0556 17.4142 45.8608 17.4506 45.0974C17.4935 44.1942 20.3062 41.9174 20.9101 42.2965C21.5539 42.7007 25.5812 44.1072 27.9612 44.7591C29.3016 45.1265 30.3954 45.2181 31.6977 45.072C32.7107 44.9582 34.7619 44.8026 36.2566 44.7261C37.751 44.6497 39.0819 44.4195 39.2138 44.2148C39.474 43.8101 42.9091 44.2434 42.8884 44.6781C42.8822 44.8077 43.6613 45.0384 44.62 45.1903C45.5787 45.3422 46.4035 45.6228 46.4532 45.814C46.5029 46.0047 46.876 46.1769 47.2821 46.1962C47.7624 46.2191 48.0117 46.4184 47.9952 46.766C47.9731 47.2304 48.2421 47.2844 50.0427 47.1771C53.5078 46.9706 54.4246 46.7999 54.4456 46.3576C54.4566 46.1256 54.9174 45.8573 55.4692 45.7616C56.0213 45.6661 56.7579 45.4146 57.1066 45.2032C57.4551 44.9917 58.5032 44.6847 59.4359 44.521C60.3682 44.357 62.1793 43.9184 63.4603 43.5462C64.7412 43.1737 66.8285 42.7496 68.0987 42.6032C70.814 42.2904 78.9414 40.5242 79.3725 40.1531C79.8866 39.7107 79.4192 39.5446 78.4693 39.8318C75.8705 40.6182 70.4548 41.5501 64.3448 42.2624C60.3656 42.7265 58.2196 42.9804 56.066 43.1003C53.4154 43.2478 50.7534 43.1922 44.648 43.0751C37.5653 42.9395 34.9635 42.9979 34.378 43.3057C32.4476 44.3209 24.7281 43.1379 22.0204 41.4121C20.8068 40.6383 20.4182 40.7147 18.6664 42.0691C17.7079 42.8105 17.1914 42.3229 16.592 41.757C16.1008 41.2933 15.554 40.777 14.6626 40.8412C13.8033 40.9027 13.341 41.3236 13.0488 41.5896C12.7793 41.8348 12.6545 41.9484 12.4965 41.5272C11.8526 39.811 11.5866 39.8754 11.0504 40.0052C10.7757 40.0717 10.43 40.1554 9.92614 40.0256C8.8234 39.7416 8.41113 39.7498 8.21173 40.0596C8.01233 40.3694 7.80113 40.3737 7.33626 40.0775C6.29057 39.4118 3.81296 39.466 2.88321 40.1745C2.19363 40.9867 1.75361 41.2924 0.894504 41.7001Z" fill="#F14B64"/>
+                    <path d="M21.7039 21.2516L22.9879 23.5196C23.6959 24.7556 24.0079 25.3556 24.2839 25.9196C24.5479 25.3556 24.8599 24.7676 25.5679 23.5316L26.8519 21.2516C27.1399 20.7356 27.5719 20.3996 28.2199 20.3996C28.8439 20.3996 29.3959 20.7596 29.6119 21.5036L31.6399 28.5596H29.1679L28.4119 25.7636C28.1599 24.8516 27.9919 24.2036 27.8599 23.5556C27.5959 24.1196 27.2959 24.7316 26.7439 25.7756L25.6639 27.7916C25.2439 28.5836 24.8359 28.6916 24.2359 28.6916C23.6359 28.6916 23.2279 28.5836 22.8079 27.7916L21.7279 25.7636C21.1399 24.6596 20.8519 24.0956 20.5999 23.5556C20.4799 24.1916 20.2999 24.8636 20.0599 25.7636L19.3039 28.5596H16.8679L18.9439 21.5036C19.1599 20.7596 19.7239 20.3996 20.3479 20.3996C20.9839 20.3996 21.4159 20.7236 21.7039 21.2516ZM35.6694 20.5316V28.5596H33.1854V20.5316H35.6694ZM45.9518 28.6916C45.6398 28.6916 45.3398 28.6196 44.9558 28.2596L40.0358 23.8436V28.5596H37.7798V21.8996C37.7798 20.8316 38.4278 20.3996 39.1358 20.3996C39.4358 20.3996 39.7358 20.4716 40.1318 20.8316L45.0518 25.2476V20.5316H47.3198V27.1796C47.3198 28.2476 46.6718 28.6916 45.9518 28.6916ZM50.2365 20.5316H59.3565L57.7485 22.6196H54.8805V28.5596H52.3965V22.6196H48.6285L50.2365 20.5316Z" fill="white"/>
+                </svg>
+            </a>
         </div>
     </div>
 </header>
@@ -112,6 +127,7 @@
     <div class="offer__heroes_blur"></div>
     <div class="offer__heroes">
         <span class="heroes__v"></span>
+        <span class="heroes__shadow"></span>
         <span class="hero__left">
          </span>
         <span class="hero__center">
@@ -184,7 +200,6 @@
                 <div class="about__block_flag"></div>
             </div>
         </div>
-
         <div class="about__rock_right"></div>
     </div>
     <div class="about__scene">
@@ -218,6 +233,7 @@
             </div>
             <div class="scene__buttons">
                 <a href="#" class="button__mint">Mint now</a>
+                <div class="line"></div>
                 <a href="#" class="button__video">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +242,7 @@
                                 d="M25.5 19.634C26.1667 20.0189 26.1667 20.9811 25.5 21.366L18.75 25.2631C18.0833 25.648 17.25 25.1669 17.25 24.3971L17.25 16.6029C17.25 15.8331 18.0833 15.352 18.75 15.7369L25.5 19.634Z"
                                 fill="#020202"/>
                     </svg>
-                    Watch video</a>
+                    Watch <span>video</span></a>
             </div>
         </div>
     </div>
@@ -270,8 +286,33 @@
                     <img src="./img/select-hero-1.png" alt="hero" class="hero_4 hero__active">
                     <img src="./img/hero_default_1.png" alt="hero" class="hero_default_4 hero__default">
                 </div>
+                <div class="herosMob">
+                    <img class="demon_dark" src="./img/new/demon_dark-mob.svg" alt="">
+                    <img class="fire_dark" src="./img/new/fire_dark-mob.svg" alt="">
+                    <img class="lady_dark" src="./img/new/lady_dark-mob.svg" alt="">
+                    <img class="lightning_dark" src="./img/new/lightning_dark-mob.svg" alt="">
+
+                    <img class="demon_light" src="./img/new/demon_light-mob.svg" alt="">
+                    <img class="fire_light" src="./img/new/fire_light-mob.svg" alt="">
+                    <img class="lady_light" src="./img/new/lady_light-mob.svg" alt="">
+                    <img class="lightning_light active" src="./img/new/lightning_light-mob.svg" alt="">
+                </div>
+                <div class="herosMobNav">
+                    <div class="item" data-id=".content__hero_1" data-img=".lady_light">
+                        <img src="./img/new/wind.svg" alt="">
+                    </div>
+                    <div class="item" data-id=".content__hero_2" data-img=".demon_light">
+                        <img src="./img/new/energy.svg" alt="">
+                    </div>
+                    <div class="item" data-id=".content__hero_3" data-img=".fire_light">
+                        <img src="./img/new/fire.svg" alt="">
+                    </div>
+                    <div class="item active" data-id=".content__hero_4" data-img=".lightning_light">
+                        <img src="./img/new/energy2.svg" alt="">
+                    </div>
+                </div>
                 <div class="heros__content">
-                    <div class="content__hero content__hero_1">
+                    <div class="content__hero content__hero_1 ">
                         <h3 class="hero__title">
                             <img src="./img/force-1.svg" alt="force" class="hero__force">
                             Thunder Boy
@@ -319,7 +360,7 @@
                             <span>.03</span>
                         </a>
                     </div>
-                    <div class="content__hero content__hero_4">
+                    <div class="content__hero content__hero_4 active">
                         <h3 class="hero__title">
                             <img src="./img/force-1.svg" alt="force" class="hero__force">
                             Thunder Boy 4
@@ -342,7 +383,6 @@
     <span class="select__left_rock"></span>
     <span class="select__right_rock"></span>
 </section>
-
 <section class="slider">
     <div class="marquee-container-top">
         <div class="marquee-content-top">
@@ -515,7 +555,8 @@
             </div>
             <h2 class="roadmap__title">
                 Roadmap
-                <img src="./img/roadmap-become.svg" alt="roadmap">
+                <img class="desc" src="./img/roadmap-become.svg" alt="roadmap">
+                <img class="mob" src="./img/new/roadmap-become-mob.svg" alt="roadmap">
             </h2>
             <div class="roadmap__description">
                 Villanzverse is a full-time project and will continue to be following the public sale. Below is what
@@ -530,6 +571,10 @@
             <div class="carousel">
                 <figure>
                     <div class="carousel__block">
+                        <div class="block__subTitle">
+                            Elite Villainz
+                            Circle
+                        </div>
                         <div class="block__box">
                             <div class="block__title">
                                 Multiple NFT holders will unlock perks and prizes from our partners such as but not
@@ -554,6 +599,10 @@
                         </div>
                     </div>
                     <div class="carousel__block">
+                        <div class="block__subTitle">
+                            Elite Villainz
+                            Circle
+                        </div>
                         <div class="block__box">
                             <div class="block__title">
                                 Multiple NFT holders will unlock perks and prizes from our partners such as but not
@@ -578,6 +627,10 @@
                         </div>
                     </div>
                     <div class="carousel__block">
+                        <div class="block__subTitle">
+                            Elite Villainz
+                            Circle
+                        </div>
                         <div class="block__box">
                             <div class="block__title">
                                 Multiple NFT holders will unlock perks and prizes from our partners such as but not
@@ -602,6 +655,10 @@
                         </div>
                     </div>
                     <div class="carousel__block">
+                        <div class="block__subTitle">
+                            Elite Villainz
+                            Circle
+                        </div>
                         <div class="block__box">
                             <div class="block__title">
                                 Multiple NFT holders will unlock perks and prizes from our partners such as but not
@@ -626,6 +683,10 @@
                         </div>
                     </div>
                     <div class="carousel__block">
+                        <div class="block__subTitle">
+                            Elite Villainz
+                            Circle
+                        </div>
                         <div class="block__box">
                             <div class="block__title">
                                 Multiple NFT holders will unlock perks and prizes from our partners such as but not
@@ -743,11 +804,12 @@
                 <div class="slider__block">
                     <div class="slider__union">
                         <div class="slider__photo">
-                            <img src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="desc" src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="mob" src="./img/new/hero-1-behind-mob.svg" alt="hero">
                             <div class="photo__name">
-                           <span>
-                              enzo
-                           </span>
+                               <span>
+                                  enzo
+                               </span>
                             </div>
                             <div class="photo__position">
                                 CEO & FOUNDER
@@ -792,11 +854,12 @@
                 <div class="slider__block">
                     <div class="slider__union">
                         <div class="slider__photo">
-                            <img src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="desc" src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="mob" src="./img/new/hero-1-behind-mob.svg" alt="hero">
                             <div class="photo__name">
-                           <span>
-                              enzo
-                           </span>
+                               <span>
+                                  enzo
+                               </span>
                             </div>
                             <div class="photo__position">
                                 CEO & FOUNDER
@@ -841,11 +904,12 @@
                 <div class="slider__block">
                     <div class="slider__union">
                         <div class="slider__photo">
-                            <img src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="desc" src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="mob" src="./img/new/hero-1-behind-mob.svg" alt="hero">
                             <div class="photo__name">
-                           <span>
-                              enzo
-                           </span>
+                               <span>
+                                  enzo
+                               </span>
                             </div>
                             <div class="photo__position">
                                 CEO & FOUNDER
@@ -890,11 +954,12 @@
                 <div class="slider__block">
                     <div class="slider__union">
                         <div class="slider__photo">
-                            <img src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="desc" src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="mob" src="./img/new/hero-1-behind-mob.svg" alt="hero">
                             <div class="photo__name">
-                           <span>
-                              enzo
-                           </span>
+                               <span>
+                                  enzo
+                               </span>
                             </div>
                             <div class="photo__position">
                                 CEO & FOUNDER
@@ -939,11 +1004,12 @@
                 <div class="slider__block">
                     <div class="slider__union">
                         <div class="slider__photo">
-                            <img src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="desc" src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="mob" src="./img/new/hero-1-behind-mob.svg" alt="hero">
                             <div class="photo__name">
-                           <span>
-                              enzo
-                           </span>
+                               <span>
+                                  enzo
+                               </span>
                             </div>
                             <div class="photo__position">
                                 CEO & FOUNDER
@@ -988,11 +1054,12 @@
                 <div class="slider__block">
                     <div class="slider__union">
                         <div class="slider__photo">
-                            <img src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="desc" src="./img/hero-1-behind.svg" alt="hero">
+                            <img class="mob" src="./img/new/hero-1-behind-mob.svg" alt="hero">
                             <div class="photo__name">
-                           <span>
-                              enzo
-                           </span>
+                               <span>
+                                  enzo
+                               </span>
                             </div>
                             <div class="photo__position">
                                 CEO & FOUNDER
@@ -1369,7 +1436,7 @@
 <footer>
     <div class="container">
         <div class="footer__union">
-            <div class="footer__block">
+            <div class="footer__block desc">
                 <a href="#" class="footer__logo"><img src="./img/logo-footer.svg" alt="logo"></a>
                 <div class="footer__copyright">
                     <span>Villainsverse</span> Ⓒ 2023
@@ -1431,6 +1498,12 @@
                         </svg>
                     </a>
                 </div>
+                <div class="footer__blockMob">
+                    <a href="#" class="footer__logo"><img src="./img/logo-footer.svg" alt="logo"></a>
+                    <div class="footer__copyright">
+                        <span>Villainsverse</span> Ⓒ 2023
+                    </div>
+                </div>
                 <a href="#" class="footer__creator">
                     <span>website by</span>
                     <svg width="43" height="18" viewBox="0 0 43 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1466,6 +1539,7 @@
     </div>
 </footer>
 
+</div>
 <!--<audio id="myAudio" controls loop autoplay>-->
 <!--    <source src="./song/song.mp3" type="audio/mp3"/>-->
 <!--</audio>-->
