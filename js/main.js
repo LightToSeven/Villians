@@ -22,6 +22,9 @@ $(document).ready(function () {
             $($(this).data('img')).addClass('active')
         }
     })
+    $('.header__btnMenu, .mobileMenu__header-close').on('click', function () {
+        $('.mobileMenu').toggleClass('active')
+    })
     $('.carousel figure').slick({
         dots: true,
         infinite: true,
