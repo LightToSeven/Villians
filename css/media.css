@@ -858,6 +858,7 @@ body {
   }
   .roadmap {
     padding: 80px 0 0;
+    overflow: hidden;
   }
   .roadmap .container {
     width: 100%;
@@ -933,6 +934,9 @@ body {
     margin: 0 auto;
     width: 400px;
   }
+  .roadmap__box .carousel figure .slick-list {
+    overflow: visible;
+  }
   .roadmap__box .carousel figure .carousel__block {
     position: relative;
     background: url(../img/new/card-mob.svg);
@@ -942,6 +946,11 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0 auto;
+    opacity: 0.2;
+    transition: all 0.3s ease;
+  }
+  .roadmap__box .carousel figure .carousel__block.slick-active {
+    opacity: 1;
   }
   .roadmap__box .carousel figure .carousel__block .block__subTitle {
     color: #FFF;
